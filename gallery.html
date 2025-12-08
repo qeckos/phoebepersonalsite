@@ -26,9 +26,25 @@
     "wdth" 87.5,
     "CTRS" 0;
     color: rgb(255, 255, 255);
-    font-size: 110%;
-    margin-left: 15%;
-    margin-right: 15%;
+    font-size: 90%;
+    text-align: left;
+    }
+    
+    h2 {
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "wdth" 87.5,
+    "CTRS" 0;
+    color: rgb(255, 255, 255);
+    font-size: 90%;
+    text-align: right;
+        text-decoration-line: underline;
+
+      
     }
     
     h1 {
@@ -61,6 +77,12 @@
     .tab:hover {
       color: #FF1936;
       text-decoration-line: underline;
+      
+    }
+    
+    .gallery {
+      margin-top: 3%;
+        width: 100%;
     }
     
     ul {
@@ -81,6 +103,22 @@
       width: 100%;
       margin-top: 3%;
     }
+    
+      .container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+  }
+  .container div {
+    font-size: 30px;
+    text-align: center;
+    padding: 2%;
+    }
 
   </style>
     
@@ -96,13 +134,22 @@
 
     <img class="landing" src="228gallery.png" alt="logo that says Phoebe Yang, re-designing the future of leadership and creativity">
     
-    <h1>
-      Hello, World.
-    </h1>
-    <p>
-      Welcome to Phoebe's portfolio! I'm a photgrapher, artist and UX/UI designer. This page is a collection of everything that I've made, from graphic designs to digital art to traditional art.
-
+    <img class="gallery" src="gallery1.png" alt="photo gallery of people playing instruments">
+        <div class="container">
+      <div><p>
+    11/02/2025
     </p>
+    <p>
+    THE UNION KW
+    </p> </div>
+      <div><h2><h2 href="https://photos.google.com/share/AF1QipMjOwgTMDppKza-M92biQHY_WHV-ML2GaRkrcgFaNbxMw8-XTpt_YfhRYLlLzMF0Q?key=VHBDVl9BdWUzT3VnZFREY0lXRXRKdzUwVnVuT1NB"> SEE MORE</h2>
+        </h2></div>
+    </div>
+
+
+    <img class="gallery" src="gallery2.png" alt="photo gallery of people playing instruments">
+    <img class="gallery" src="gallery3.png" alt="photo gallery of people djing">
+
 
   </body>
 </html>
