@@ -8,12 +8,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Science+Gothic:wdth,wght@87.5,100..900&display=swap" rel="stylesheet">
     
   <style>
+  .container2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+  }
+  .container2 div {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+  }
+  .container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+  }
+  .container div {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+
+  }
+    
+    img {
+      width: 100%;
+    }
 
     a {
       font-family: "Barrio", system-ui;
       font-weight: 400;
       font-style: normal;
-      font-size: 140%
+      font-size: 185%;
     }
     
     p {
@@ -25,10 +64,27 @@
     "slnt" 0,
     "wdth" 87.5,
     "CTRS" 0;
+    color: #04006F;
+    font-size: 60%;
+
+    text-align: left;
+
+    }
+    
+    h3 {
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "wdth" 87.5,
+    "CTRS" 0;
     color: rgb(255, 255, 255);
-    font-size: 110%;
+    font-size: 115%;
     margin-left: 15%;
     margin-right: 15%;
+    text-align: center;
     }
     
     h1 {
@@ -44,13 +100,49 @@
     font-size: 110%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 5%;
+    margin-top: 2%;
+    text-align: center;
+
+    }
+    
+    h2 {
+      font-family: "Barrio", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 230%;
+      color: rgb(255, 255, 255);
+      margin-top: 5%;
+          margin-left: 15%;
+    margin-right: 15%;
+    }
+    
+    .gif {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
     }
     
     .logo {
     display: block;
     margin: auto;
     width: 30%;
+    }
+    
+    .decalleft {
+      width: 10%;
+      margin-left: 15%;
+    }
+    
+    .decalright {
+      width: 10%;
+      display: inline-block;
+      margin-left: 70%;
+      margin-right: 15%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+
     }
     
     .tab {
@@ -95,14 +187,47 @@
     <li><a class="tab" href="resume.html">RESUME</a></li>    
 
     <img class="landing" src="228home.png" alt="logo that says Phoebe Yang, re-designing the future of leadership and creativity">
-    
+    <img class="gif" src="fishies.gif" alt="fish swimming back and forth gif">
+
     <h1>
       Hello, World.
     </h1>
-    <p>
-      Welcome to Phoebe's portfolio! I'm a photgrapher, artist and UX/UI designer. This page is a collection of everything that I've made, from graphic designs to digital art to traditional art.
+    <h3>
+      Welcome to Phoebe's portfolio! I'm a photographer, artist and UX/UI designer. This page is a collection of everything that I've made, from graphic designs to digital art to traditional art.
+    </h3>
+    <h3>
+      Here, you'll find a collection of my illustrative and creative works, demonstrating my range of styles, mediums and creativity. I am still expanding my knowledge in design and learning everyday.
+    </h3>
+    <h2>
+      Digital Art
+    </h2>
+    <img class="decalleft" src="asset2.png" alt="decal"> 
+    <div class="container">
+      <div> <img src="girlart.png" alt="art of a girl with biomechanical limbs"> </div>
+      <div><p>
+        Drawing of a girl floating in space. When making this, I was really craving an orange and so I was inspired by that to do for the insides of the girl.
+        </p></div>
+    </div>
+    <img class="decalright" src="asset3.png" alt="decal"> 
+    
+    <img class="gif" src="fish.gif" alt="fish gif">
 
-    </p>
+      <h2>
+      Posters
+    </h2>
+    <img class="decalleft" src="asset2.png" alt="decal"> 
+    <div class="container2">
+      <div> <img src="catposter.png" alt="poster for a cat cafe"> 
+        <p>
+          In-Class Assignment, GBDA101
+        </p></div> 
+      <div><img src="jbposter.png" alt="poster for a music concert called jamboree"> 
+              <p>
+          Fall 2025 "Jamboree" Music Concert, JamNetwork 
+        </p>
+      </div>
+    </div>
+    <img class="decalright" src="asset3.png" alt="decal"> 
 
   </body>
 </html>
